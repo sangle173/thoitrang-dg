@@ -31,7 +31,7 @@
 
 <!-- Category -->
 <div class="mb-3">
-    <label class="form-label">Danh mục dự án</label>
+    <label class="form-label">Danh mục sản phẩm</label>
     <select name="portfolio_category_id" class="form-select" required>
         <option value="">-- Chọn danh mục --</option>
         @foreach($categories as $category)
@@ -52,7 +52,7 @@
 <div class="form-check mb-3">
     <input class="form-check-input" type="checkbox" name="is_featured" id="is_featured" value="1"
         {{ old('is_featured', $portfolio->is_featured ?? false) ? 'checked' : '' }}>
-    <label class="form-check-label" for="is_featured">Hiển thị ở mục "Dự án nổi bật"</label>
+    <label class="form-check-label" for="is_featured">Hiển thị ở mục "Sản phẩm nổi bật"</label>
 </div>
 
 <!-- Order -->
@@ -66,7 +66,7 @@
 <!-- Submit Buttons -->
 <div class="d-flex justify-content-between align-items-center mt-4">
     <div>
-        <button type="submit" class="btn btn-primary">{{ isset($edit) && $edit ? 'Cập nhật' : 'Lưu dự án' }}</button>
+        <button type="submit" class="btn btn-primary">{{ isset($edit) && $edit ? 'Cập nhật' : 'Lưu sản phẩm' }}</button>
         <a href="{{ route('admin.portfolios.index') }}" class="btn btn-secondary">Hủy</a>
     </div>
 

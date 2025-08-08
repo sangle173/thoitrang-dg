@@ -12,7 +12,7 @@
 @endphp
 
 @if($categories->count())
-    <section class="py-3" id="featured-projects">
+    <section class="py-3" id="featured-products">
         <div class="container">
             @foreach($categories as $category)
                 @if($category->portfolios->count())

@@ -8,14 +8,14 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
-                        <li class="breadcrumb-item"><a href="{{ route('admin.portfolios.index') }}">Quản lý Dự án</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Chỉnh sửa Dự án</li>
+                        <li class="breadcrumb-item"><a href="{{ route('admin.portfolios.index') }}">Quản lý sản phẩm</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Chỉnh sửa sản phẩm</li>
                     </ol>
                 </nav>
             </div>
         </section>
 
-        <h2 class="mb-4">Chỉnh sửa Dự án</h2>
+        <h2 class="mb-4">Chỉnh sửa sản phẩm</h2>
 
         <form id="portfolio-form" method="POST" action="{{ route('admin.portfolios.update', $portfolio) }}" enctype="multipart/form-data">
             @include('admin.portfolios._form', ['edit' => true])

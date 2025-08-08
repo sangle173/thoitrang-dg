@@ -70,7 +70,7 @@
                         <a class="nav-link {{ request()->is('gioi-thieu') ? 'active' : '' }}" href="{{ url('/gioi-thieu') }}">Giới thiệu</a>
                     </li>
 
-                    <!-- Dự án -->
+                    <!-- Sản phẩm -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ request()->is('du-an*') ? 'active' : '' }}"
                            href="#" data-bs-toggle="dropdown">Sản phẩm</a>

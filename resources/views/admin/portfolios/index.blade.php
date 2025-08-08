@@ -7,14 +7,14 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Quản lý Dự án</li>
+                    <li class="breadcrumb-item active" aria-current="page">Quản lý Sản phẩm</li>
                 </ol>
             </nav>
         </div>
     </section>
 
     <div class="container py-4">
-        <h2 class="mb-4">Danh sách Dự án</h2>
+        <h2 class="mb-4">Danh sách Sản phẩm</h2>
 
         @if(session('success'))
             <div class="alert alert-success">{{ session('success') }}</div>
@@ -47,7 +47,7 @@
             </form>
 
             <a href="{{ route('admin.portfolios.create') }}" class="btn btn-success mt-3 mt-md-0">
-                + Thêm Dự án
+                + Thêm sản phẩm
             </a>
         </div>
 
@@ -109,7 +109,7 @@
 
                                 <form action="{{ route('admin.portfolios.destroy', $project) }}"
                                       method="POST"
-                                      onsubmit="return confirm('Xóa dự án này?')">
+                                      onsubmit="return confirm('Xóa sản phẩm này?')">
                                     @csrf
                                     @method('DELETE')
                                     <button class="btn btn-sm btn-danger" title="Xóa">
@@ -122,7 +122,7 @@
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="8" class="text-muted text-center">Chưa có dự án nào.</td>
+                        <td colspan="8" class="text-muted text-center">Chưa có sản phẩm nào.</td>
                     </tr>
                 @endforelse
                 </tbody>

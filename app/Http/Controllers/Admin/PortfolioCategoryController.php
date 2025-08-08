@@ -28,7 +28,7 @@ class PortfolioCategoryController extends Controller
 
         PortfolioCategory::create($data);
 
-        return redirect()->route('admin.portfolio-categories.index')->with('success', 'Đã tạo danh mục dự án.');
+        return redirect()->route('admin.portfolio-categories.index')->with('success', 'Đã tạo danh mục sản phẩm.');
     }
 
     public function edit(PortfolioCategory $portfolioCategory)

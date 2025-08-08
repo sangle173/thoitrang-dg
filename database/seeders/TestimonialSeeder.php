@@ -11,28 +11,36 @@ class TestimonialSeeder extends Seeder
     {
         $testimonials = [
             [
-                'name' => 'Anh Nguyễn Văn Minh',
+                'name' => 'Chị Nguyễn Thị Lan',
                 'location' => 'TP. Hồ Chí Minh',
                 'avatar' => null,
                 'rating' => 5,
-                'content' => 'Tôi rất hài lòng với thiết kế biệt thự của LuxVilla. Không gian sống tuyệt vời và đội ngũ chuyên nghiệp.',
+                'content' => 'Tôi rất hài lòng với bộ váy dạ hội từ Dương Gia Fashion. Thiết kế tinh tế và vừa vặn hoàn hảo.',
                 'order' => 1,
             ],
             [
-                'name' => 'Chị Trần Thị Hồng',
-                'location' => 'Đà Nẵng',
-                'avatar' => null,
-                'rating' => 4,
-                'content' => 'Thi công đúng tiến độ, thiết kế tinh tế và hợp phong thủy. Cảm ơn đội ngũ LuxVilla.',
-                'order' => 2,
-            ],
-            [
-                'name' => 'Anh Phạm Quốc Huy',
+                'name' => 'Chị Trần Thị Hương',
                 'location' => 'Hà Nội',
                 'avatar' => null,
                 'rating' => 5,
-                'content' => 'LuxVilla mang đến trải nghiệm chuyên nghiệp và tận tâm từ lúc tư vấn đến khi hoàn thành.',
+                'content' => 'Dịch vụ may đo rất chuyên nghiệp. Áo cưới của tôi đẹp hơn mong đợi, cảm ơn team Dương Gia!',
+                'order' => 2,
+            ],
+            [
+                'name' => 'Chị Lê Minh Phương',
+                'location' => 'Đà Nẵng',
+                'avatar' => null,
+                'rating' => 5,
+                'content' => 'Chất lượng vải tuyệt vời, đường may tinh tế. Dương Gia Fashion xứng đáng là thương hiệu thời trang hàng đầu.',
                 'order' => 3,
+            ],
+            [
+                'name' => 'Chị Vũ Thị Mai',
+                'location' => 'Cần Thơ',
+                'avatar' => null,
+                'rating' => 4,
+                'content' => 'Tư vấn phong cách rất tận tình. Giúp tôi tìm được phong cách phù hợp với công việc và cá tính.',
+                'order' => 4,
             ],
         ];
 

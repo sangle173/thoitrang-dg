@@ -10,9 +10,10 @@ class PortfolioCategorySeeder extends Seeder
     public function run(): void
     {
         $data = [
-            ['name' => 'Biệt thự hiện đại', 'slug' => 'biet-thu-hien-dai', 'short_description' => 'Phong cách thiết kế hiện đại, tối giản.'],
-            ['name' => 'Biệt thự cổ điển', 'slug' => 'biet-thu-co-dien', 'short_description' => 'Mang đậm nét cổ kính và sang trọng.'],
-            ['name' => 'Biệt thự nghỉ dưỡng', 'slug' => 'biet-thu-nghi-duong', 'short_description' => 'Thiết kế tối ưu cho không gian nghỉ dưỡng.'],
+            ['name' => 'Thời trang công sở', 'slug' => 'thoi-trang-cong-so', 'short_description' => 'Trang phục lịch sự cho môi trường công sở.'],
+            ['name' => 'Váy dạ hội', 'slug' => 'vay-da-hoi', 'short_description' => 'Những thiết kế váy dạ hội sang trọng, quyến rũ.'],
+            ['name' => 'Thời trang casual', 'slug' => 'thoi-trang-casual', 'short_description' => 'Phong cách thoải mái cho cuộc sống hàng ngày.'],
+            ['name' => 'Áo cưới', 'slug' => 'ao-cuoi', 'short_description' => 'Những thiết kế áo cưới độc đáo, lãng mạn.'],
         ];
 
         foreach ($data as $item) {

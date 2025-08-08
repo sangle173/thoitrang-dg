@@ -15,8 +15,8 @@ class HeaderSettingSeeder extends Seeder
     {
         HeaderSetting::create([
             'logo' => 'uploads/logo.png',
-            'email' => 'contact@villadesign.vn',
-            'phone' => '0909 999 999',
+            'email' => 'contact@duonggiafashion.vn',
+            'phone' => '0909 888 777',
         ]);
     }
 }

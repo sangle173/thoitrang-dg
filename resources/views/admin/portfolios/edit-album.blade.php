@@ -6,7 +6,7 @@
         <nav aria-label="breadcrumb" class="mb-3">
             <ol class="breadcrumb bg-transparent px-0">
                 <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Trang chủ</a></li>
-                <li class="breadcrumb-item"><a href="{{ route('admin.portfolios.index') }}">Dự án</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('admin.portfolios.index') }}">sản phẩm</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
                     {{ isset($portfolio->id) ? 'Cập nhật ảnh / mô tả' : 'Thêm ảnh / mô tả' }}
                 </li>
@@ -15,7 +15,7 @@
 
         <!-- Header Title -->
         <h4 class="mb-4">
-            {{ isset($portfolio->id) ? 'Cập nhật mô tả và hình ảnh album cho dự án:' : 'Thêm hình ảnh album cho dự án:' }}
+            {{ isset($portfolio->id) ? 'Cập nhật mô tả và hình ảnh album cho sản phẩm:' : 'Thêm hình ảnh album cho sản phẩm:' }}
             <button type="button"
                     class="btn btn-link text-decoration-none text-primary fw-bold p-0"
                     style="font-size: inherit; line-height: inherit;"
@@ -45,7 +45,7 @@
                     <div class="d-flex justify-content-start align-items-center mt-4 gap-2">
                         <button type="submit" class="btn btn-success">Lưu mô tả</button>
                         <a href="{{ route('admin.portfolios.edit', $portfolio->id) }}" class="btn btn-secondary">
-                            Quay lại chỉnh sửa dự án
+                            Quay lại chỉnh sửa sản phẩm
                         </a>
                     </div>
                 </form>
@@ -122,7 +122,7 @@
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Thông tin dự án</h5>
+                    <h5 class="modal-title">Thông tin sản phẩm</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
                 </div>
                 <div class="modal-body">

@@ -34,12 +34,12 @@
                     <li class="nav-item"><a class="nav-link {{ request()->routeIs('users.*') ? 'active' : '' }}" href="{{ route('users.index') }}">Người dùng</a></li>
                     <li class="nav-item"><a class="nav-link {{ request()->routeIs('admin.services.*') ? 'active' : '' }}" href="{{ route('admin.services.index') }}">Quản lý dịch vụ</a></li>
 
-                    <!-- Dự án -->
+                    <!-- Sản phẩm -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle {{ request()->routeIs('admin.portfolios.*') || request()->routeIs('admin.portfolio-categories.*') ? 'active' : '' }}" href="#" data-bs-toggle="dropdown">Dự án</a>
+                        <a class="nav-link dropdown-toggle {{ request()->routeIs('admin.portfolios.*') || request()->routeIs('admin.portfolio-categories.*') ? 'active' : '' }}" href="#" data-bs-toggle="dropdown">Sản phẩm</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{ route('admin.portfolios.index') }}">Quản lý dự án</a></li>
-                            <li><a class="dropdown-item" href="{{ route('admin.portfolio-categories.index') }}">Danh mục dự án</a></li>
+                            <li><a class="dropdown-item" href="{{ route('admin.portfolios.index') }}">Quản lý sản phẩm</a></li>
+                            <li><a class="dropdown-item" href="{{ route('admin.portfolio-categories.index') }}">Danh mục sản phẩm</a></li>
                         </ul>
                     </li>
 

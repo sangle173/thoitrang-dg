@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container py-4">
-        <h2 class="mb-3">Danh mục Dự án</h2>
+        <h2 class="mb-3">Danh mục Sản phẩm</h2>
 
         @if(session('success'))
             <div class="alert alert-success">{{ session('success') }}</div>

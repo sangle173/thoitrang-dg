@@ -43,8 +43,7 @@
             <!-- Back to List -->
             <div class="mt-5">
                 <a href="{{ route('portfolio.index') }}" class="btn btn-outline-secondary">
-                    <i class="bi bi-arrow-left-circle"></i> Quay lại danh sách dự án
-                </a>
+                    <i class="bi bi-arrow-left-circle"></i> Quay lại danh sách sản phẩm
             </div>
         </div>
     </section>

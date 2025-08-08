@@ -14,12 +14,12 @@ class AboutSettingSeeder extends Seeder
     public function run(): void
     {
         AboutSetting::firstOrCreate([], [
-            'title' => 'Về Chúng Tôi',
-            'short_description' => 'Chúng tôi là đơn vị chuyên thiết kế và thi công biệt thự đẳng cấp, mang đến không gian sống lý tưởng cho hàng nghìn khách hàng.',
-            'full_description' => 'Với hơn 10 năm kinh nghiệm, đội ngũ kiến trúc sư và kỹ sư của chúng tôi luôn đặt chất lượng và sự sáng tạo lên hàng đầu. Chúng tôi cam kết mang đến giải pháp tối ưu cho từng công trình, từ bản vẽ cho đến khi bàn giao.',
-            'button_text' => 'Xem thêm',
+            'title' => 'Về Dương Gia Fashion',
+            'short_description' => 'Dương Gia Fashion là thương hiệu thời trang cao cấp, chuyên thiết kế và sản xuất trang phục đẳng cấp cho phái đẹp hiện đại.',
+            'full_description' => 'Với hơn 5 năm kinh nghiệm trong ngành thời trang, Dương Gia Fashion luôn tiên phong trong việc tạo ra những bộ sưu tập thời trang độc đáo, kết hợp giữa phong cách truyền thống và xu hướng hiện đại. Chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng cao với giá cả hợp lý.',
+            'button_text' => 'Tìm hiểu thêm',
             'button_link' => '/gioi-thieu',
-            'image' => 'uploads/about-default.jpg', // You can change or upload the image manually to public/storage/uploads/
+            'image' => 'uploads/about-fashion.jpg',
         ]);
     }
 }

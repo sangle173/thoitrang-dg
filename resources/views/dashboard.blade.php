@@ -39,7 +39,7 @@
                         <div class="card-body p-4">
                             <div class="d-flex align-items-center">
                                 <div>
-                                    <p class="mb-2 text-secondary">Dự án mới</p>
+                                    <p class="mb-2 text-secondary">Sản phẩm mới</p>
                                     <h4 class="mb-0 text-danger">{{ $newPortfolioCount ?? '0' }}</h4>
                                 </div>
                                 <div class="widgets-icons-2 rounded-circle bg-gradient-burning text-white ms-auto d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
@@ -56,7 +56,7 @@
                         <div class="card-body p-4">
                             <div class="d-flex align-items-center">
                                 <div>
-                                    <p class="mb-2 text-secondary">Tổng số dự án</p>
+                                    <p class="mb-2 text-secondary">Tổng số sản phẩm</p>
                                     <h4 class="mb-0 text-success">{{ $totalPortfolioCount ?? '0' }}</h4>
                                 </div>
                                 <div class="widgets-icons-2 rounded-circle bg-gradient-ohhappiness text-white ms-auto d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">

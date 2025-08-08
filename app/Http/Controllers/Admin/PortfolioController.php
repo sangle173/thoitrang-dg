@@ -69,7 +69,7 @@ class PortfolioController extends Controller
         $portfolio = Portfolio::create($data);
 
         return redirect()->route('admin.portfolios.updateAlbum', $portfolio->id)
-            ->with('success', 'Dự án đã được tạo. Bây giờ bạn có thể thêm hình ảnh album.');
+            ->with('success', 'Sản phẩm đã được tạo. Bây giờ bạn có thể thêm hình ảnh album.');
     }
 
 
@@ -121,7 +121,7 @@ class PortfolioController extends Controller
 
         $portfolio->update($data);
 
-        return redirect()->route('admin.portfolios.index')->with('success', 'Dự án đã được cập nhật.');
+        return redirect()->route('admin.portfolios.index')->with('success', 'Sản phẩm đã được cập nhật.');
     }
 
 
@@ -165,7 +165,7 @@ class PortfolioController extends Controller
         // Finally delete the portfolio
         $portfolio->delete();
 
-        return redirect()->route('admin.portfolios.index')->with('success', 'Dự án đã được xoá!');
+        return redirect()->route('admin.portfolios.index')->with('success', 'Sản phẩm đã được xoá!');
     }
 
 }

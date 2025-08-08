@@ -14,21 +14,30 @@ class HeroSliderSeeder extends Seeder
     public function run(): void
     {
         HeroSlider::create([
-            'image' => 'uploads/hero1.jpg',
-            'headline' => 'Thiết Kế Biệt Thự Đẳng Cấp',
-            'subheadline' => 'Mang đến không gian sống lý tưởng cho gia đình bạn',
-            'button_text' => 'Xem Dự Án',
-            'button_link' => '/projects',
+            'image' => 'uploads/hero-fashion-1.jpg',
+            'headline' => 'Dương Gia Fashion - Thời Trang Đẳng Cấp',
+            'subheadline' => 'Khám phá bộ sưu tập thời trang cao cấp với thiết kế độc đáo và chất lượng hoàn hảo',
+            'button_text' => 'Xem Bộ Sưu Tập',
+            'button_link' => '/du-an',
             'order' => 1,
         ]);
 
         HeroSlider::create([
-            'image' => 'uploads/hero2.jpg',
-            'headline' => 'Không Gian Sống Tinh Tế',
-            'subheadline' => 'Được thiết kế theo phong cách hiện đại và đẳng cấp',
-            'button_text' => 'Liên hệ tư vấn',
-            'button_link' => '/contact',
+            'image' => 'uploads/hero-fashion-2.jpg',
+            'headline' => 'May Đo Cao Cấp - Vừa Vặn Hoàn Hảo',
+            'subheadline' => 'Dịch vụ may đo chuyên nghiệp với đội ngũ thợ may giàu kinh nghiệm',
+            'button_text' => 'Đặt Lịch Tư Vấn',
+            'button_link' => '/lien-he',
             'order' => 2,
+        ]);
+
+        HeroSlider::create([
+            'image' => 'uploads/hero-fashion-3.jpg',
+            'headline' => 'Váy Dạ Hội Sang Trọng',
+            'subheadline' => 'Những thiết kế váy dạ hội quyến rũ cho các sự kiện đặc biệt',
+            'button_text' => 'Khám Phá Ngay',
+            'button_link' => '/dich-vu/thoi-trang-da-hoi',
+            'order' => 3,
         ]);
     }
 }

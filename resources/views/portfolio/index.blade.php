@@ -7,19 +7,19 @@
         <div class="container">
             <div class="breadcrumb-content d-flex flex-wrap align-items-center justify-content-between">
                 <div class="section-heading">
-                    <h1 class="section__title text-white">Dự án</h1>
+                    <h1 class="section__title text-white">Sản phẩm</h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Project List -->
+    <!-- Product List -->
     <div class="container py-5">
         <h1 class="mb-4 fw-bold text-center">
             @if(!empty($category))
                 {{ $category->name }}
             @else
-                Tất cả dự án
+                Tất cả sản phẩm
             @endif
         </h1>
 
@@ -79,7 +79,7 @@
                 </div>
             @empty
                 <div class="col-12">
-                    <div class="alert alert-warning">Không có dự án nào được tìm thấy.</div>
+                    <div class="alert alert-warning">Không có sản phẩm nào được tìm thấy.</div>
                 </div>
             @endforelse
         </div>

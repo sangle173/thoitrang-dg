@@ -9,7 +9,7 @@ return new class extends Migration {
     public function up(): void
     {
         Schema::table('portfolios', function (Blueprint $table) {
-            $table->unsignedBigInteger('created_by')->nullable()->after('slug');
+            $table->unsignedBigInteger('created_by')->nullable()->after('short_description');
         });
 
         // Set default user ID (1) for existing records

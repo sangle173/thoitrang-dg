@@ -27,7 +27,7 @@
                     </a>
                     <a href="{{ url('/du-an') }}"
                        class="text-white text-decoration-none d-flex align-items-center gap-2">
-                        <i class="bi bi-chevron-right small"></i> Dự án
+                        <i class="bi bi-chevron-right small"></i> Sản phẩm
                     </a>
                     <a href="{{ url('/dich-vu') }}"
                        class="text-white text-decoration-none d-flex align-items-center gap-2">
@@ -108,7 +108,7 @@
         <hr class="bg-secondary">
 
         <div class="text-center text-white small">
-            {{ $header->footer_copyright ?? ('© ' . now()->year . ' VILLA DESIGN. All rights reserved.') }}
+            {{ $header->footer_copyright ?? ('© ' . now()->year . ' Thời Trang - Dương Gia. All rights reserved.') }}
         </div>
     </div>
 </footer>

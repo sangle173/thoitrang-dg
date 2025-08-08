@@ -49,7 +49,7 @@
                              style="height: 56px; object-fit: contain;">
                     </a>
                 @endif
-                <span class="text-white fw-semibold brand-text">Ivy Archi - Design & Build</span>
+                <span class="text-white fw-semibold brand-text">Thời Trang - Dương Gia</span>
             </div>
 
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
@@ -73,9 +73,9 @@
                     <!-- Dự án -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ request()->is('du-an*') ? 'active' : '' }}"
-                           href="#" data-bs-toggle="dropdown">Dự án</a>
+                           href="#" data-bs-toggle="dropdown">Sản phẩm</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{ route('portfolio.index') }}">Tất cả Dự án</a></li>
+                            <li><a class="dropdown-item" href="{{ route('portfolio.index') }}">Tất cả Sản phẩm</a></li>
                             @foreach($portfolioCategories as $cat)
                                 <li>
                                     <a class="dropdown-item" href="{{ route('portfolio.index', ['category' => $cat->slug]) }}">

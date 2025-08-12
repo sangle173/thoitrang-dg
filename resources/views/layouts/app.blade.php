@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Ivy Archi - Design & Build</title>
+    <title>Duong Gia Fashion</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -216,7 +216,7 @@
 @stack('scripts')
 
 <footer style="text-align: center; padding: 20px 0; background-color: #f8f9fa;">
-    <p style="margin: 0; color: #6c757d;">&copy; {{ date('Y') }} Ivy Archi. All rights reserved.</p>
+    <p style="margin: 0; color: #6c757d;">&copy; {{ date('Y') }} Duong Gia Fashion. All rights reserved.</p>
 </footer>
 </body>
 </html>
